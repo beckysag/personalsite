@@ -1,16 +1,3 @@
-<?php 
-if (isset($_POST['send'])) {	// Send email
-	$to = 'becky.sagalyn@gmail.com';
-	$subject = 'Email from: ' . $_POST['name'];
-	$message = $_POST['message'];
-	$message = wordwrap($message, 70, "\r\n");
-	$email = $_POST['email'] ;
-	mail($to, $subject, $message, 'From: ' . $email);
-}
-?>
-
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -20,17 +7,9 @@ if (isset($_POST['send'])) {	// Send email
 	<!-- Basic Page Needs ================================================== -->
 	<meta charset="utf-8">
 	<title>Rebecca Sagalyn</title>
-
 	<meta name="description" content="Personal webpage of Rebecca Sagalyn">
 	<meta name="author" content="Rebecca Sagalyn">
-
-
-<meta http-equiv="cache-control" content="max-age=0" />
-<meta http-equiv="cache-control" content="no-cache" />
-<meta http-equiv="expires" content="0" />
-<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-<meta http-equiv="pragma" content="no-cache" />
-
+	<meta name="keywords" content="rebecca sagalyn, becky sagalyn, rsagalyn" />
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -75,7 +54,7 @@ if (isset($_POST['send'])) {	// Send email
 					<nav id="main-nav">
 						<ul class="main-navigation">
 							<li><a href="">Home</a></li>
-							<li><a href="about">About</a></li>
+							<!--li><a href="about">About</a></li-->
 							<li><a href="resume">Resume</a></li>
 							<li><a href="projects">Projects</a></li>
 							<li><a href="contact">Contact</a></li>

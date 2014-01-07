@@ -1,16 +1,3 @@
-<?php 
-if (isset($_POST['send'])) {	// Send email
-	$to = 'becky.sagalyn@gmail.com';
-	$subject = 'Email from: ' . $_POST['name'];
-	$message = $_POST['message'];
-	$message = wordwrap($message, 70, "\r\n");
-	$email = $_POST['email'] ;
-	mail($to, $subject, $message, 'From: ' . $email);
-}
-?>
-
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->

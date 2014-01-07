@@ -1,16 +1,3 @@
-<?php 
-if (isset($_POST['send'])) {	// Send email
-	$to = 'becky.sagalyn@gmail.com';
-	$subject = 'Email from: ' . $_POST['name'];
-	$message = $_POST['message'];
-	$message = wordwrap($message, 70, "\r\n");
-	$email = $_POST['email'] ;
-	mail($to, $subject, $message, 'From: ' . $email);
-}
-?>
-
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -19,8 +6,7 @@ if (isset($_POST['send'])) {	// Send email
 <head>
 	<!-- Basic Page Needs ================================================== -->
 	<meta charset="utf-8">
-	<title>Rebecca Sagalyn</title>
-
+	<title>Resume | Rebecca Sagalyn</title>
 	<meta name="description" content="Personal webpage of Rebecca Sagalyn">
 	<meta name="author" content="Rebecca Sagalyn">
 
@@ -67,7 +53,7 @@ if (isset($_POST['send'])) {	// Send email
 					<nav id="main-nav">
 						<ul class="main-navigation">
 							<li><a href="/">Home</a></li>
-							<li><a href="/about">About</a></li>
+							<!--li><a href="about">About</a></li-->
 							<li><a href="">Resume</a></li>
 							<li><a href="/projects">Projects</a></li>
 							<li><a href="/contact">Contact</a></li>
@@ -127,10 +113,6 @@ if (isset($_POST['send'])) {	// Send email
 
 
 
-
-
-
-
 					<!-- ================= TEACHING EXPERIENCE ================= -->
 
 					<div class="section cv-teaching">
@@ -145,14 +127,12 @@ if (isset($_POST['send'])) {	// Send email
 							<div class="item-subtitle">Teaching Assistant </div>
 							<div class="item-subtitle"><em>Web Development</em></div>
 							<ul class="item-details">
-								<li>Taught Web topics including CSS, PHP scripting, SQL statements, and Javascript. 
-								</li>
+								<li>Taught Web topics including CSS, PHP scripting, SQL statements, and Javascript. </li>
 								<li>Held regular office hours for XX students and conducted individual help sessions with 
 								students to resolve debugging, programming, and logic problems. 
 								<li>Graded homework and examinations and evaluated programming projects</li>
 								<li>Helped design course assignments and developed supplemental 
 									course lectures.</li>
-								</li>
 							</ul>
 						</div>
 
@@ -259,7 +239,7 @@ if (isset($_POST['send'])) {	// Send email
 		<div class="item-gpa">GPA 3.95/4.0</div>
 		
 		<h4>Relevent Coursework:</h4>
-		<ul id="courses">
+		<ul class="courses">
 			<li>Data Structures</li>
 			<li>Computer Architecture and Assembly Language</li>
 			<li>Introduction to Usability Engineering</li>
@@ -282,7 +262,7 @@ if (isset($_POST['send'])) {	// Send email
 		</div>
 		
 		<h4>Relevent Coursework:</h4>
-		<ul id="courses">
+		<ul class="courses">
 			<li>Introduction to Computer Science I & II</li>
 			<li>Discrete Mathematics</li>
 		</ul>
@@ -298,7 +278,7 @@ if (isset($_POST['send'])) {	// Send email
 		<div class="item-gpa">GPA 3.85/4.0 (Major GPA: 4.0); 
 			recipient of Dean’s List Honors</div>
 		<h4>Relevent Coursework:</h4>
-		<ul id="courses">
+		<ul class="courses">
 			<li>Accounting Systems</li>
 			<li>Management Information Systems Technology</li>
 		</ul>

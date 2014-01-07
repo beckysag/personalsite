@@ -6,8 +6,7 @@
 <head>
 	<!-- Basic Page Needs ================================================== -->
 	<meta charset="utf-8">
-	<title>Rebecca Sagalyn</title>
-
+	<title>Projects | Rebecca Sagalyn</title>
 	<meta name="description" content="Personal webpage of Rebecca Sagalyn">
 	<meta name="author" content="Rebecca Sagalyn">
 
@@ -54,7 +53,7 @@
 					<nav id="main-nav">
 						<ul class="main-navigation">
 							<li><a href="/">Home</a></li>
-							<li><a href="/about">About</a></li>
+							<!--li><a href="about">About</a></li-->
 							<li><a href="/resume">Resume</a></li>
 							<li><a href="">Projects</a></li>
 							<li><a href="/contact">Contact</a></li>
@@ -156,13 +155,14 @@
 
 
 								<!-- TSP -->
-								<li class="project">
+								<li class="project tsp">
 									<h2>Traveling Salesman<span>2013</span></h2>
 									<p class="git">
-										<a target="_blank" href="https://github.com/beckysag/traveling-salesman">View on Github</a></p>
+										<a target="_blank" href="https://github.com/beckysag/traveling-salesman">
+											View on Github</a></p>
 									<h3>C++ Implementation using Christofides and 2-Opt</h3>
-									<p><ol>
-										<span>Uses Christofides’ algorithm to construct a tour:</span>
+									<div class="list-heading">Uses Christofides’ algorithm to construct a tour:</div>
+									<ul>
 										<li>Find a minimum spanning tree T of G</li>
 										<li>Let O be the set of vertices with an odd degree in T</li>
 										<li>Find a minimum cost perfect matching M for these vertices</li>
@@ -170,10 +170,11 @@
 										<li>Find a Eulerian tour of H</li>
 										<li>Convert the Eulerian tour into Hamiltonian path by skipping visited 
 											nodes (using shortcuts)</li>
-										<span>Then uses the 2-opt algorithm to improve it:</span>
-										<li>Apply the 2-opt improvement algorithm to optimize the path.
-										</li>
-									</ol></p>
+									</ul>
+									<div class="list-heading">Then uses the 2-opt algorithm to improve it:</div>
+									<ul>
+										<li>Apply the 2-opt improvement algorithm to optimize the path.</li>
+									</ul>
 									<div class="project-tech">Technologies used: C++</div>
 								</li>
 			
@@ -189,20 +190,11 @@
 										user, list remote files, and retrieve remote files.</p>
 									<div class="project-tech">Technologies used: C</div>
 								</li>
-
 			
-								<!--li class="project">
-									<h2>Maximum sub-array Problem</h2>
-									<p class="git"><a target="_blank" href="https://github.com/beckysag/uniqify">View on Github</a></p>
-									<div class="project-tech">Technologies used:</div>
-								</li-->
-
 							</ul>
-
 
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>

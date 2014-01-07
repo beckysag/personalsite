@@ -9,8 +9,6 @@ if (isset($_POST['send'])) {	// Send email
 }
 ?>
 
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -19,7 +17,7 @@ if (isset($_POST['send'])) {	// Send email
 <head>
 	<!-- Basic Page Needs ================================================== -->
 	<meta charset="utf-8">
-	<title>Rebecca Sagalyn</title>
+	<title>Contact | Rebecca Sagalyn</title>
 
 	<meta name="description" content="Personal webpage of Rebecca Sagalyn">
 	<meta name="author" content="Rebecca Sagalyn">
@@ -67,7 +65,7 @@ if (isset($_POST['send'])) {	// Send email
 					<nav id="main-nav">
 						<ul class="main-navigation">
 							<li><a href="/">Home</a></li>
-							<li><a href="/about">About</a></li>
+							<!--li><a href="about">About</a></li-->
 							<li><a href="/resume">Resume</a></li>
 							<li><a href="/projects">Projects</a></li>
 							<li><a href="">Contact</a></li>
@@ -88,24 +86,28 @@ if (isset($_POST['send'])) {	// Send email
 				</header>				
 			</div>
 		</div>	
-		
-
 
 
 		<!-- MAIN COLUMN -->
 		<div class="mid-col">
-
+		
 			<div class="border-col"></div>	
 
 			<div class="mid-col-container">
 				<div id="content" class="inner">
-
 					<div class="contactPage">	
 
-						<form id="contact-form" method="post" action="">
 
+<?php 
+if (isset($_POST['send'])) {
+	echo '<h4>Thank you! I will be in touch soon.</h4>';
+} else {
+?>
+
+
+						<form id="contact-form" method="post">
 							<h1>Get in touch!</h1>
-							<p>I'd love to hear from you</p>
+							<!--p>I'd love to hear from you</p-->
 	
 							<ul>
 								<li>
@@ -133,15 +135,15 @@ if (isset($_POST['send'])) {	// Send email
 									<button name="send" type="submit">Send</button>
 								</li>
 							</ul>
-
-						</form>
+						</form>						
+<?php 
+}
+?>
+						
 					</div>
-
-
 				</div>
 			</div>
 		</div>
-
 	</div>
 	
 <script>
@@ -152,7 +154,6 @@ if (isset($_POST['send'])) {	// Send email
 
   ga('create', 'UA-45496107-3', 'rebeccasagalyn.com');
   ga('send', 'pageview');
-
 </script>
 	
 </body>

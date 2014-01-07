@@ -199,7 +199,7 @@ a {
 	margin: 5px 0 10px 0;
 }
 
-ul#courses {
+ul.courses {
 	margin:2px 0 0 40px;
 }
 
@@ -222,12 +222,19 @@ ul#courses {
 	color: #7d7d7b;
 }
 
-.project ol {
-	margin:0px;
-	list-style-position:inside
+.list-heading {
+	font-weight:500;
+	font-size:110%;
+	margin:8px 0 5px 0;
 }
 
-.project ol li {
+.project ul {
+	margin:0px;
+	list-style-position:inside;
+	list-style-type:disc;
+}
+
+.project ul li {
 	padding-left:20px;
 	margin: 0px;
     text-indent: -1em;
@@ -260,11 +267,10 @@ ul#courses {
 
 .project p {
 	line-height:20px;
-	margin-bottom:10px;
 }
 
 .project .project-tech {
-	margin:0 0 4px 0;
+	margin:10px 0 4px 0;
 }
 
 

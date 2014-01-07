@@ -1,9 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,400italic,700);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400);
 
 
 @font-face {
@@ -15,60 +12,6 @@
 		 url('../fonts/Entypo/entypo-social.woff') format('woff'), 
 		 url('../fonts/Entypo/entypo-social.ttf') format('truetype'),
 		 url('../fonts/Entypo/entypo-social.svg#font/entypo-social') format('svg');
-}
-/*
-@font-face {
-	font-family:"entypo";
-	font-style:normal;
-	font-weight:400;
-	src:url(../fonts/icons/entypo.eot);
-	src:url("../fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"),
-		url("../fonts/icons/entypo.woff") format("woff"),
-		url("../fonts/icons/entypo.ttf") format("truetype");
-}
-*/
-
-@font-face {
-	font-family:'Open Sans Condensed';
-	src: url('fonts/opensans/opensans-condbold.eot');
-	src: url('fonts/opensans/opensans-condbold.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/opensans/opensans-condbold.woff') format('woff'), 
-		 url('fonts/opensans/opensans-condbold.ttf') format('truetype'),
-		 url('fonts/opensans/opensans-condbold.svg#font/opensans-condbold') format('svg');
-}
-
-
-@font-face{
-	font-family:OpenSans;
-	font-style:normal;
-	font-weight:400;
-	src:url(../fonts/opensans/opensans-regular-webfont.eot);
-	src:url(../fonts/opensans/opensans-regular-webfont.eot?#iefix) format("embedded-opentype"),
-		url(../fonts/opensans/opensans-regular-webfont.woff) format("woff"),
-		url(../fonts/opensans/opensans-regular-webfont.ttf) format("truetype"),
-		url(../fonts/opensans/opensans-regular-webfont.svg#OpenSansRegular) format("svg")
-}	
-
-@font-face{
-	font-family:OpenSans;
-	font-style:normal;
-	font-weight:700;
-	src:url(../fonts/opensans/opensans-bold-webfont.eot);
-	src:url(../fonts/opensans/opensans-bold-webfont.eot?#iefix) format("embedded-opentype"),
-		url(../fonts/opensans/opensans-bold-webfont.woff) format("woff"),
-		url(../fonts/opensans/opensans-bold-webfont.ttf) format("truetype"),
-		url(../fonts/opensans/opensans-bold-webfont.svg#OpenSansBold) format("svg")
-}
-
-@font-face{
-	font-family:OpenSans;
-	font-style:italic;
-	font-weight:400;
-	src:url(../fonts/opensans/opensans-italic-webfont.eot);
-	src:url(../fonts/opensans/opensans-italic-webfont.eot?#iefix) format("embedded-opentype"),
-		url(../fonts/opensans/opensans-italic-webfont.woff) format("woff"),
-		url(../fonts/opensans/opensans-italic-webfont.ttf) format("truetype"),
-		url(../fonts/opensans/opensans-italic-webfont.svg#OpenSansItalic) format("svg")
 }
 
 @font-face{
@@ -157,38 +100,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-	font-family: Signerica;
-	src: url('../fonts/signerica/signerica.eot');
-	src: url('../fonts/signerica/signerica.eot?iefix') format('eot'),
-		 url('../fonts/signerica/signerica.woff') format('woff'),
-		 url('../fonts/signerica/signerica.ttf') format('truetype'),
-		 url('../fonts/signerica/signerica.svg#webfontZam02nTh') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-@font-face {
-	font-family: 'SignericaFat'; 
-	src: url('../fonts/signerica/signerica_fat.ttf');
-}
-
-@font-face {
-	font-family: 'Belinda';
-	src: url('../fonts/belinda/belinda.eot');
-	src: url('../fonts/belinda/belinda.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/belinda/belinda.woff') format('woff'),
-		 url('../fonts/belinda/belinda.ttf') format('truetype'),
-		 url('../fonts/belinda/belinda.svg#wf') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face{
-	font-family:'Yanone';
-	src:url("../fonts/YanoneKaffeesatz-Regular-webfont.woff") format("woff");
-	font-weight:normal;font-style:normal
-}
-	

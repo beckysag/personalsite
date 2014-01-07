@@ -1,0 +1,47 @@
+- add graph to prime finder
+
+- add coursework
+- decide on logo
+- finish git
+- update linkedin
+- update coderwall
+- focus resume on web dev?
+
+
+job sites:
+- dice
+
+
+
+Introduction to Computer Science I (CS 161)
+Introduction to Computer Science II (CS 162)
+Discrete Structures in Computer Science (CS 225)
+Data Structures (CS 261)
+Computer Architecture & Assembly Language (CS 271)
+Introduction to Databases (CS 275)
+Operating Systems (CS 311)
+Analysis of Algorithms (CS 325)
+Introduction to Usability Engineering (CS 352)
+Software Engineering I (CS 361)
+Software Engineering II (CS 362)
+Introduction to Computer Networks (CS 372)
+Software Projects (CS 419)
+Web Development (CS 494)
+Mobile & Cloud Software Development (CS 496)
+
+
+Post-baccalaureate student in Computer Science with experience in object-oriented programming (Java, C++); developing, testing and debugging code; designing interfaces; Web design and development (HTML, CSS, Javascript, PHP, MySQL); and database design.
+
+
+ Programming Languages : Java, C, XSLT, HTML, JSP, CSS
+• Scripting Languages : PHP, Javascript, Shell Scripting
+• Data Base / CMS : MySQL, Drupal, PL/SQL, Microsoft SQL Server 2008, Oracle 10g.
+• Basic Knowledge in : SOAP, REST, C++, PERL
+• Operating Systems : Windows, OS X, Linux, Unix
+• IDE/tools : Eclipse 3.x, Netbeans, SVN, SQLite. 
+• Frameworks : JUnit testing framework, Spring framework.
+• Software development Methodologies : Agile, Waterfall
+• Certification : Sun Certified Java Programmer (SCJP 1.5)
+
+
+

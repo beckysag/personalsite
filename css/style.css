@@ -1,0 +1,326 @@
+@import "fonts.css";
+@import "layout.css";
+
+
+/* SHARED STYLES 
+-----------------------*/
+body {
+	height: 100%;
+	font-family: "Open Sans","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	background: #8b3978;
+}
+
+.left-col {
+	color: #888;
+}
+
+.mid-col {
+	color: #666;
+}
+
+h1 {font-size: 1.8em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1.1em;}
+
+ul {
+	list-style-type:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#content {
+	padding:30px 0;
+}
+.red {
+	color:#fe3e36;  
+}
+
+
+/* BUTTONS
+-----------------------*/
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active,
+.btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
+  color: #ffffff;
+  background-color: #222222;
+}
+
+
+/* HOME 
+-----------------------*/
+.homePage {
+	margin-top:80px;
+	text-align:center;
+}
+
+.homePage .headline {
+	margin-bottom:50px;
+	font-size:44px;
+}
+
+.homePage .intro {
+	font-size:22px;
+}
+
+@media screen and (max-width: 700px) {
+	.homePage {
+		margin-top:0px;
+	}
+
+	.homePage .headline {
+		font-size:34px;
+	}
+
+	.homePage .intro {
+		font-size:18px;
+	}
+
+}
+
+
+
+/* ABOUT 
+-----------------------*/
+.aboutPage {
+	margin-top:80px;
+}
+
+
+
+/* RESUME 
+-----------------------*/
+
+.section{
+	margin-bottom:25px;
+	font-family:'Open Sans';
+}
+	.last{
+		margin-bottom:0px;
+	}
+
+.section-name{
+	color:#fe3e36;  
+	font-size:26px; 
+	padding-bottom:0px; 
+	padding-left:46px;
+	margin-bottom:15px;	
+	text-transform:uppercase;
+	line-height:46px;
+	background-repeat:no-repeat;
+	background-position:0 3px;
+}
+	.cv-work .section-name {
+		background-image:url(../images/work40x40.png);
+	}
+	.cv-teaching .section-name {
+		background-image:url(../images/teaching40x40.png);
+	}
+	.cv-awards .section-name {
+		background-image:url(../images/awards40x40.png);
+	}
+	.cv-education .section-name {
+		background-image:url(../images/education40x40.png);
+	}
+	.cv-skills .section-name {
+		background-image:url(../images/skills40x40.png);
+	}
+
+
+.section ul { 
+	list-style-type:disc; 
+}
+
+.item {
+	padding:0 0 30px 10px;
+	font-family:'Open Sans';
+}
+
+	.item .item-row {
+		width:100%;
+		height:auto;
+		line-height:22px;
+		display:inline-block;
+		
+	}
+		.item-title {
+			width:70%;
+			float:left;
+			font-size:18px;
+			font-weight:bold;
+		}
+		.item-date {
+			width:29%;
+			font-size:12px;
+			float:left;
+			text-align:right;
+			line-height:22px;
+		}
+			.item-date span{
+				background-color:#EFEFEF;
+				height:100%;
+				padding:2px 5px;
+				-moz-border-radius:5px;
+				border-radius:5px;		
+			}
+
+			@media screen and (max-width: 500px) {
+				.item-title {
+					width:100%;
+				}
+				.item-date {
+					text-align:left;
+					width:100%;
+					padding-top:4px;
+				}
+			}
+
+
+	.item .item-subtitle {
+		font-size:14px;
+		width:100%;
+	}
+
+
+.item-details {
+	margin:10px 0 0 20px;
+	font-size:13px;
+	width:95%; /* fallback */
+	width: calc(98% - 20px); /*item-row width = 98% (70% + 28%) */
+}
+
+
+/** Education **/
+.item-gpa {
+	font-weight:bold;
+	margin: 5px 0 10px 0;
+}
+
+ul#courses {
+	margin:2px 0 0 40px;
+}
+
+/** Skills **/
+.cv-skills .item {
+	padding-bottom:10px;
+}
+
+.topic {
+	font-weight:bold;
+}
+
+
+
+/* PROJECTS
+-----------------------*/
+
+.project{
+	margin-bottom:40px;
+	color: #7d7d7b;
+}
+
+.project ol {
+	margin:0px;
+	list-style-position:inside
+}
+
+.project ol li {
+	padding-left:20px;
+	margin: 0px;
+    text-indent: -1em;
+    margin-left: 1em;
+}
+
+.project h2 {
+	margin:0 0 8px 0;
+	color: #fe3e36;
+	font-size:26px;
+}
+
+.project h2 span {
+	color:#cccccc;
+	font-weight:100;
+	font-size:80%;
+	margin-left:9px;
+}
+
+.project h2 span:before {
+	content:" | ";
+	margin-right:3px;
+	font-size:24px;
+}
+
+.project h3 {
+	margin:0 0 4px 0;
+	font-size:20px;
+}
+
+.project p {
+	line-height:20px;
+	margin-bottom:10px;
+}
+
+.project .project-tech {
+	margin:0 0 4px 0;
+}
+
+
+
+/* CONTACT
+-----------------------*/
+
+#contact-form h1, #contact-form li {
+	padding-bottom: 20px;
+}
+
+#contact-form label{
+	line-height: 30px;	
+}
+
+#contact-form input, #contact-form textarea {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	padding: 5px;
+	border: 1px solid #afafaf;
+	width:100%;
+	background-color: #eee;
+}
+
+#contact-form input {
+	line-height:20px;
+}
+
+#contact-form textarea {
+	height:250px;
+}
+
+@media screen and (max-width: 700px) {
+	#contact-form textarea {
+		height:200px;
+	}
+}
+
+#contact-form button {
+	background: none #fe3e36;
+    color: #F1F1F1;
+    margin-top: 25px;
+	border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px !important;
+    line-height: 20px;
+    padding: 8px 14px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 140px;
+}
+
+#contact-form button:hover, #contact-form button:focus, #contact-form button:active {
+	color: #ffffff;
+	background-color:#464646;
+}

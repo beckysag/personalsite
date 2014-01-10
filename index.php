@@ -81,15 +81,13 @@
 
 		<!-- MAIN COLUMN -->
 		<div class="mid-col">
-
 			<div class="border-col"></div>	
-
 			<div class="mid-col-container">
 				<div id="content" class="inner">
-
 					<div class="homePage">	
-						<h1 class="headline">Hi, I'm <span class="red">Rebecca Sagalyn.</span></h1>
-
+						<h1>Hi, I'm <span class="red">Rebecca Sagalyn - </span></h1>
+						<h2>Web Developer, Student, Photographer. </h2>
+						
 						<p class="intro">I am a recent graduate of Oregon State University, interested in pursuing a career in web development.
 						</p>	
 						<br>						
